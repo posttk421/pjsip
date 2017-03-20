@@ -11,7 +11,7 @@
 [Dd]ebugPublic/
 [Rr]elease/
 x64/
-build/
+#build/
 bld/
 [Bb]in/
 [Oo]bj/
@@ -26,11 +26,11 @@ TestResult.xml
 
 *_i.c
 *_p.c
-*_i.h
+#*_i.h
 *.ilk
 *.meta
 *.obj
-*.pch
+#*.pch
 *.pdb
 *.pgc
 *.pgd
@@ -140,7 +140,7 @@ ClientBin/
 *~
 *.dbmdl
 *.dbproj.schemaview
-*.pfx
+#*.pfx
 *.publishsettings
 node_modules/
 
@@ -186,3 +186,4 @@ $RECYCLE.BIN/
 *.lib
 pjproject-vs14.VC.db
 pjproject-vs14.VC.VC.opendb
+output/
